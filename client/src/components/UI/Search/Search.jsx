@@ -77,7 +77,7 @@ const Search = ({ placeholder }) => {
       if(bestMatches){
         console.log(bestMatches)
       }  
-  },[bestMatches]); // Only re-call effect if value or delay changes
+  },[bestMatches]); // Only re-call effect if value changes
   /***********************************************/
 
   return (
